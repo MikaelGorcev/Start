@@ -1,0 +1,74 @@
+
+html {
+    background-color: #2A2719;
+}
+
+.header { 
+    display: flex;
+    justify-content: center;
+    background-color: #CDC1A8;
+}
+.header__nav {
+    width: 30vw;
+    height: 10vh;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.header__nav__link {
+    text-decoration: none;
+    padding: 10px;
+    transition-duration: 1s;
+}
+.header__nav__link:hover {
+background-color: #47321F;
+color: #9E773E;
+border-radius: 20px;
+}
+.main {
+    background-image: url(https://images.wallpaperscraft.ru/image/ssha_manhetten_ulica_dvizhenie_85123_1920x1080.jpg);
+    background-size: 100%;
+    padding: 0px 25px 0px;
+    margin: 0px 25px 0px;
+}
+.main__contain__title {
+    padding: 10px;
+    text-align: center;
+}
+.main__title {display: inline;
+   color: #9E773E;
+   padding: 10px;
+   background-color: #47321F;
+   border-radius: 20px;
+   font-family:'Brygada 1918', Arial, serif;
+}
+.main__face-foto{
+    padding: 15px;
+    background-color: #AC8D61;
+}
+.main__section__aboutme {
+    border: 5px solid #736B56;
+    width: fit-content;
+}
+.main__section__psy_img{
+margin-right: 10px;
+}
+.main__section__meskill{
+
+}
+.main__section__list--yellow {
+background-color: darkgoldenrod;
+color: black;
+font-family: 'Caveat', 'Segoe UI', 'Helvetica Neue', sans-serif;
+font-size: 3ch;
+padding-right: 10px;
+}
+.main__section__list {
+    color: darkgoldenrod;
+    border: 5px solid #736B56;
+    width: fit-content;
+}
+.footer {
+    padding: 40px;
+    background-color: #CDC1A8;
+}
