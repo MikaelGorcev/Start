@@ -15,12 +15,12 @@ html {
     justify-content: space-between;
     align-items: center;
 }
-.header__nav__link {
+.header__link {
     text-decoration: none;
     padding: 10px;
     transition-duration: 1s;
 }
-.header__nav__link:hover {
+.header__link:hover {
 background-color: #47321F;
 color: #9E773E;
 border-radius: 20px;
@@ -31,7 +31,7 @@ border-radius: 20px;
     padding: 0px 25px 0px;
     margin: 0px 25px 0px;
 }
-.main__contain__title {
+.main__content {
     padding: 10px;
     text-align: center;
 }
@@ -46,24 +46,22 @@ border-radius: 20px;
     padding: 15px;
     background-color: #AC8D61;
 }
-.main__section__aboutme {
+.main__border {
     border: 5px solid #736B56;
     width: fit-content;
 }
-.main__section__psy_img{
+.main__img{
 margin-right: 10px;
 }
-.main__section__meskill{
 
-}
-.main__section__list--yellow {
+.text--yellow {
 background-color: darkgoldenrod;
 color: black;
 font-family: 'Caveat', 'Segoe UI', 'Helvetica Neue', sans-serif;
 font-size: 3ch;
 padding-right: 10px;
 }
-.main__section__list {
+.main__list {
     color: darkgoldenrod;
     border: 5px solid #736B56;
     width: fit-content;
