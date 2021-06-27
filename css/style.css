@@ -1,4 +1,6 @@
 
+@import url(https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap);
+
 html {
     background-color: #2A2719;
 }
@@ -19,6 +21,9 @@ html {
     text-decoration: none;
     padding: 10px;
     transition-duration: 1s;
+    color: #2A2719;
+    font-family: 'Viaoda Libre';
+    font-size: 20px;
 }
 .header__link:hover {
 background-color: #47321F;
